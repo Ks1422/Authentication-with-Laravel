@@ -7,33 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Laravel Hakkında
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel, basit ve şık bir sözdizimine sahip güçlü bir web uygulama çatısıdır. Laravel, aşağıdaki gibi birçok yaygın web geliştirme görevini kolaylaştırır:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Hızlı ve kolay yönlendirme sistemi.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Güçlü bağımlılık enjeksiyon konteyneri.
 
-## Learning Laravel
+Oturum ve önbellek yönetimi için birden fazla destek ve önbellek depolama.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Kolay ve sezgisel veritabanı ORM.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Bağımsız veritabanı şeması geçişleri.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Güçlü arka plan işleme sistemi.
 
-## Laravel Sponsors
+Gerçek zamanlı olay yayınlama.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Laravel, büyük ve karmaşık uygulamalar için güçlü araçlar sağlayarak geliştiricilere esneklik sunar.
 
-### Premium Partners
+
+
+
+## Laravel Sponsorları
+
+Laravel geliştirmeyi finanse eden aşağıdaki sponsorlara teşekkürlerimizi iletmek istiyoruz. Sponsor olmakla ilgileniyorsanız lütfen [Laravel Partners programını](https://partners.laravel.com) ziyaret edin.
+
+## Premium Partnerler
 
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
@@ -49,18 +50,44 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
-## Contributing
+## Proje Hakkında
+Bu proje Laravel, Bootstrap, HTML ve CSS kullanılarak geliştirilmiştir. Proje, kullanıcı dostu bir arayüz ve modern bir web tasarımı sunarak etkili bir kullanıcı deneyimi sağlar.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Kullanılan Teknolojiler
 
-## Code of Conduct
+Bu projede aşağıdaki teknolojiler kullanılmıştır:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Laravel – Backend geliştirme için
 
-## Security Vulnerabilities
+Bootstrap – UI bileşenleri ve responsive tasarım için
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+HTML – Sayfa yapısını oluşturmak için
 
-## License
+CSS – Tasarım ve stil düzenlemeleri için
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Projeyi Çalıştırma
+Proje Klonlama
+git clone https://github.com/kullaniciadi/projeadi.git
+
+Laravel Bağımlılıklarını Yükleme  - Composer install
+
+Ortam Değişkenlerini Ayarlama - cp .env.example .env php artisan key:generate
+
+Veritabanını Oluşturma ve migrasyonları Çalıştırma - php artisan migrate
+
+Uygulamayı Başlatma - php artisan serve
+
+
+## Resimler
+![dashboard](https://github.com/user-attachments/assets/fc11c01a-bc09-4f75-a461-a3e4a9b75ff5)
+![web](![login blade](https://github.com/user-attachments/assets/bb65e3be-d766-4add-9167-2f15b302ccfa)
+https://github.com/user-attachments/assets/b478dc43-1573-4f62-aba1-3ab3e5c28998)
+![registered](https://github.com/user-attachments/assets/74768f1f-9acc-4d7b-a149-2577e9d80f0b)
+![web-2](https://github.com/user-attachments/assets/dfafe2ea-785f-45be-a2c2-0f1ff37f3e2d)
+![login-pp](https://github.com/user-attachments/assets/075cc466-afd3-4246-9c6d-902226bc069a)
+
+
+## Lisans
+
+Laravel çerçevesi [MIT lisansı](https://opensource.org/licenses/MIT) altında lisanslanmış açık kaynaklı bir yazılımdır.
+
